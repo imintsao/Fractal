@@ -1,0 +1,114 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/imintsao/Documents/GitHub/iminBranchMac/Fractal
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53545
+Successfully changed project path to: /Users/imintsao/Documents/GitHub/iminBranchMac/Fractal
+/Users/imintsao/Documents/GitHub/iminBranchMac/Fractal
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/imintsao/Documents/GitHub/iminBranchMac/Fractal/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-13 13:48:32.915 Unity[4489:77494] DELL U2518D preferred device: AMD Radeon Pro 555X (high power)
+2021-05-13 13:48:32.915 Unity[4489:77494] Metal devices available: 2
+2021-05-13 13:48:32.915 Unity[4489:77494] 0: AMD Radeon Pro 555X (high power)
+2021-05-13 13:48:32.915 Unity[4489:77494] 1: Intel(R) UHD Graphics 630 (low power)
+2021-05-13 13:48:32.915 Unity[4489:77494] Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56489
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000558 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 18.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.7 MB.
+System memory in use after: 108.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 2.445325 ms (FindLiveObjects: 0.183454 ms CreateObjectMapping: 0.069577 ms MarkObjects: 2.100757 ms  DeleteObjects: 0.090002 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Folder
+  artifactKey: Guid(7db16f83d9d0040b29f5a3f3fdca9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(7db16f83d9d0040b29f5a3f3fdca9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140fa3b0784793c007bc6f72f62147ef') in 0.004902 seconds
+  Import took 0.007394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.467110 seconds.
+  path: Assets/text
+  artifactKey: Guid(7db16f83d9d0040b29f5a3f3fdca9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/text using Guid(7db16f83d9d0040b29f5a3f3fdca9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce782ed00a923192828a03d5e22e0cef') in 0.000915 seconds
+  Import took 0.003083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.887128 seconds.
+  path: Assets/text/Fractal.cs
+  artifactKey: Guid(6171c913fb791457ea9dc0c71db6106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/text/Fractal.cs using Guid(6171c913fb791457ea9dc0c71db6106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01a5bd0c4465f89b69c36b3d7eafccf') in 1.651135 seconds
+  Import took 1.652766 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.2 MB.
+System memory in use after: 113.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 1.707418 ms (FindLiveObjects: 0.154318 ms CreateObjectMapping: 0.038477 ms MarkObjects: 1.451637 ms  DeleteObjects: 0.061355 ms)
+
